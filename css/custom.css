@@ -3,7 +3,9 @@ body {
 	color: #959595;
 	}
 
-h1,
+h1{
+	color: #6772a3;
+	}
 h2,
 h3,
 h4,
@@ -146,12 +148,12 @@ Override Bootstrap Classes
 
 /* Links */
 a {
-  color: orange;
+  color: #6772a3;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: darkorange;
+  color: #dd845a;
   text-decoration: underline;
 }
 
@@ -182,7 +184,7 @@ a:focus {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #dfe1eb;
+  background-color: #dd845a;
   border-color: #6772a3;
 }
 .btn-primary:active,
