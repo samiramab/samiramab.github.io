@@ -1,16 +1,172 @@
 <!DOCTYPE html>
-<html>
+<!-- Template by Quackit.com -->
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license.
+Although you can use them, for a more unique website, replace these images with your own. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Samira's website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
 <body>
-  <img src=img/brains_logo.png alt="brain logo" style="width:360px;height:36px;">
-  <h1 style="font-family:arial">welcome to my website!</h1>
-  <p style="font-family:arial">hi there, I'm Samira, an incoming Neuroscience PhD student at UC Berkeley interested in cognition, aging, &amp; decision-making.</p>
-  <p style="font-family:arial">this site is still under construction, but in the meantime you can find my CV
-    <span style="text-decoration: underline; color: #3366ff;"><a href="https://drive.google.com/file/d/1pWPAKR0bzvNODU5lyq4nLhRWsFeh1Tm-/view?usp=sharing" target="_blank" rel="noopener" title="CV here" style="color: #3366ff; text-decoration: underline;">
-      here</a></span><span class="pl-kos">&nbsp;</span>
-    and/or find me on twitter
-    <span style="text-decoration: underline;"><a href="https://twitter.com/samiramabs" target="_blank" rel="noopener" title="Twitter"><span style="color: #3366ff; text-decoration: underline;">
-      here</span></a></span>!</p>
-  <p style="font-family:arial">feel free to reach out with any questions!</p>
-  <img src=img/IMG-2118.JPG alt="me!" style="width:245px;height:300px;">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Logo and responsive toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <img src="img/brains_logo.png" alt="brain logo" style="width:355px;height:36px;">
+                </a>
+            </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#about">about</a>
+                    </li>
+                    <li>
+                        <a href="#cv">cv</a>
+                    </li>
+          <!-- dropdown menu within navbar link -->
+          <!--
+          <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more about me <span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="#">teaching</a></li>
+							<li><a href="#">outreach</a></li>
+							<li><a href="#">hobbies</a></li>
+						</ul>
+					</li>
+          -->
+                  <!--
+                    <li>
+                        <a href="#contact"><span class="glyphicon glyphicon-envelope"></span> contact</a>
+                    </li>
+                </ul>
+                -->
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+
+
+    <!-- Heading -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 id="intro" class="text-center" style="color:#6772a3;">about me</h1>
+                <img src="img/IMG-2118.JPG" ALIGN="left" class="img-circle" class="mx-auto d-block" alt="me, holding a brain" style="width:255px;height:300px;">
+                <p class="lead text-center">Hi there! I'm Samira, an incoming PhD student in the <a href="https://neuroscience.berkeley.edu/" style="color:#6772a3;">Helen Wills Neuroscience Institute</a> at UC Berkeley  interested in cognition, aging, &amp; decision-making.</p>
+                <p class="lead text-center">Previously, I majored in <a href="https://cogsci.berkeley.edu/" style="color:#6772a3;">Cognitive Science</a> and minored in Bioengineering at UC Berkeley.
+                  I was a research associate in the <a href="http://neuroecon.berkeley.edu/" style="color:#6772a3;">Neuroecon Lab</a>, where I worked on several projects focused on aging and decision-making; I completed an honors thesis in the lab in Spring 2020.
+                  I also was an <a href="http://www.columbia.edu/cu/biology/ug/amgen/" style="color:#6772a3;">Amgen Scholar</a> at Columbia University, where I studied hippocampal circuits in a model of Alzheimer's disease.
+                  Outside the lab, I was the President of the Cognitive Science Student Association as well as an alumna and organizer of the CS Kickstart program and an EECS Scholar.</p>
+                <p class="lead text-center">I also enjoy spending my free time baking, reading, and hiking.</p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Promos -->
+    <!--
+	<div class="container-fluid">
+        <div class="row promo">
+        	<a href="#">
+				<div class="col-md-4 promo-item item-1">
+					<h3>
+						Unleash
+					</h3>
+				</div>
+            </a>
+            <a href="#">
+				<div class="col-md-4 promo-item item-2">
+					<h3>
+						Synergize
+					</h3>
+				</div>
+            </a>
+
+			<a href="#">
+				<div class="col-md-4 promo-item item-3">
+					<h3>
+						Procrastinate
+					</h3>
+				</div>
+            </a>
+        </div>
+    </div>  --> <!-- /.container-fluid -->
+
+
+
+	<div class="container text-center">
+    <h1 id="cv" class="text-center" style="color:#dfe1eb;">. . .</h1>
+    <h1 id="cv" class="text-center" style="color:#6772a3;">cv</h1>
+		<!-- <p class="lead">pdf here</p>-->
+
+    <p><a class="btn btn-primary" href="https://drive.google.com/file/d/1pWPAKR0bzvNODU5lyq4nLhRWsFeh1Tm-/view?usp=sharing">view as pdf here</a></p>
+	</div><!--/.container-->
+
+
+	<!-- Footer -->
+	<footer>
+    <h1 id="cv" class="text-center" style="color:#dfe1eb;">. . .</h1>
+		<h1 class="text-center" style="color:#6772a3;">contact</h1>
+		<!-- Map -->
+
+			<div class="container">
+
+						<p class="lead text-center" style="font-size:18px;"><span class="glyphicon glyphicon-envelope"></span> smaboudian at berkeley dot edu</p>
+            <p class="lead text-center"> <img src="img/twittericon.png" alt="brain logo" style="width:20px;height:20px;"> <a href="https://twitter.com/samiramabs" style="color:#6772a3;font-size:18px;">@samiramabs</a></p>
+
+      </div>
+
+        <!-- Copyright etc -->
+        <!--
+        <div class="small-print">
+        	<div class="container">
+        		<p><a href="#">Terms &amp; Conditions</a> | <a href="#">Privacy Policy</a> | <a href="#contact">Contact</a></p>
+        		<p>Copyright &copy; Example.com 2015 </p>
+        	</div>
+        </div>
+        -->
+
+	</footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<!-- IE10 viewport bug workaround -->
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+
 </body>
+
 </html>
