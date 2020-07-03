@@ -1,5 +1,5 @@
 body {
-	padding-top: 55px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+	padding-top: 60px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
 	color: #959595;
 	}
 
@@ -164,11 +164,22 @@ a:focus {
 .navbar-default .navbar-brand {
   color: #dd845a;
 }
+.navbar-default:hover,
+.navbar-default:focus {
+  color: #333;
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: #de9d7e;
+}
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: sienna;
-  background-color: transparent;
+  color: #333;
+  background-color: #fff;
 }
+
 
 /* Primary Buttons */
 .btn-primary {
